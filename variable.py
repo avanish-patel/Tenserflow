@@ -1,6 +1,7 @@
 import tensorflow as tf
 
-state = tf.Variable(0, name='counter')
+state = tf.Variable(0, 
+name='counter')
 
 one = tf.constant(1)
 
